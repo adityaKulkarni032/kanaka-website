@@ -1,0 +1,223 @@
+.owl-dot.active span {
+  background-color: #f15a27 !important;
+}
+
+.owl-carousel .owl-next {
+  right: 0;
+  background: none !important;
+}
+
+.owl-carousel .owl-prev {
+  left: 0;
+  background: none !important;
+}
+
+
+@media (min-width: 1921px) {
+  .card-height {
+    height: 590px;
+  }
+
+  .career-card-height {
+    height: 400px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    font-size: 30px !important;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 8px !important;
+    width: 8px !important;
+  }
+
+}
+
+@media (max-width: 1920px) {
+  .card-height {
+    height: 590px;
+  }
+
+  .career-card-height {
+    height: 400px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    font-size: 30px !important;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 8px !important;
+    width: 8px !important;
+  }
+
+}
+
+@media (max-width: 1540px) {
+  .card-height {
+    height: 495px;
+  }
+
+  .career-card-height {
+    height: 360px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    font-size: 24px !important;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 6.4px !important;
+    width: 6.4px !important;
+  }
+
+}
+
+@media (max-width: 1440px) {
+  .card-height {
+    height: 390px;
+  }
+
+  .career-card-height {
+    height: 320px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    font-size: 24px !important;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 6.4px !important;
+    width: 6.4px !important;
+  }
+
+}
+
+@media (max-width: 1366px) {
+  .card-height {
+    height: 380px;
+  }
+
+  .career-card-height {
+    height: 300px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    font-size: 24px !important;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 6.4px !important;
+    width: 6.4px !important;
+  }
+
+}
+
+@media (max-width: 1280px) {
+  .card-height {
+    height: 410px;
+  }
+
+  .career-card-height {
+    height: 330.66px
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-height {
+    height: 420px;
+  }
+
+  .career-card-height {
+    height: 320px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    font-size: 20px !important;
+    width: 26.66px;
+    height: 26, 66px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 5.3px !important;
+    width: 5.3px !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .card-height {
+    height: 430px;
+  }
+
+  .career-card-height {
+    height: 305px;
+  }
+
+  .owl-carousel .owl-next,
+  .owl-carousel .owl-prev {
+    display: none;
+    font-size: 16px !important;
+    width: 21.33px;
+    height: 21.33px;
+    position: absolute;
+    border-radius: 8px !important;
+  }
+
+  .owl-dot span {
+    background-color: #d9d9d9 !important;
+    height: 4.26px !important;
+    width: 4.26px !important;
+  }
+
+}
+
+.industry-card-background1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../assets/images/main/Fintech.jpg');
+}
+
+.industry-card-background2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../assets/images/main/Healthcare.jpg');
+}
+
+.industry-card-background3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../assets/images/main/Retail.jpg');
+}
+
+.industry-card-background4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../assets/images/main/Technology.jpg');
+}

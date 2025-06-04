@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="./assets/images/Kanaka_logo 3.png">
+    <title>Kanaka | Services</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/careers.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2PH1CWZ5MY"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-2PH1CWZ5MY'); </script>
+    <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <nav class="lg:px-[55px] lg:py-2 xl:px-[69px] xl:py-3.5 2xl:px-[83px] 2xl:py-4 3xl:px-[104px] items-center dark:bg-dark-bg-black bg-white dark:lg:border-blackOne lg:border-b-[1px] lg:border-greyThree w-full navbarStyle"
+        id="navbar">
+        <div class="hidden lg:flex lg:justify-between lg:items-center lg:w-[100%] dark:bg-dark-bg-black">
+            <div class="hidden md:flex">
+                <a href="./">
+                    <img class="desklogo lg:w-[99px] lg:h-[17px] xl:w-[123px] xl:h-[21px] 2xl:w-[148px] 2xl:h-[25px] 3xl:w-[185.26px] 3xl:h-[32px]"
+                        src="./assets/images/kanaka_logo_light.png" alt="Kanaka Logo" />
+                </a>
+            </div>
+            <div class="hidden md:flex w-[50%]">
+                <ul
+                    class="flex items-center self-end justify-between w-full font-medium lg:ml-14 xl:ml-16 3xl:ml-20 lg:text-xs xl:text-sm 2xl:text-base 3xl:text-xl xl:space-x-1 2xl:space-x-4 3xl:space-x-1 text-greyTwo">
+                    <li>
+                        <a id="homeLink" class="homeLink" href="./">Home</a>
+                    </li>
+                    <li>
+                        <a id="navlink" href="./services.html">Services</a>
+                    </li>
+                    <li>
+                        <a id="navlink" href="./about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a id="navlink" href="./resources.html">Resources</a>
+                    </li>
+                    <li>
+                        <a id="navlink" href="./careers.html">Careers</a>
+                    </li>
+                    <li>
+                        <a id="navlink" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <button
+                            class="bg-orangeOne text-white rounded-lg lg:w-[46px] lg:h-[28px] xl:w-[58px] xl:h-[34px] 2xl:h-[41px] 2xl:w-[69px] 3xl:w-[87px] 3xl:h-[52px] items-center">
+                            <a id="navlink" class="" href="https://blogs.kanakasoftware.com/" target="_blank">Blogs</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="w-[100vw] h-[56px] flex justify-between items-center lg:hidden dark:bg-dark-bg-black px-5">
+                <div class="w-[96px] h-auto">
+                    <a href="./">
+                        <img class="moblogo" src="./assets/images/kanaka_logo_light.png" alt="" />
+                    </a>
+                </div>
+                <div class="">
+                    <button id="menu-toggle" class="flex justify-center items-center h-[24px] w-[24px]">
+                        <i class="text-lg fa-solid fa-bars text-orangeOne"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden z-100 top-16">
+                <hr class="dark:border-blackOne border-greyThree">
+                <ul
+                    class="dark:bg-dark-bg-black text-base flex-row justify-between space-y-4 items-center text-[15px] h-full py-8 px-5">
+                    <li
+                        class="flex items-center flex-row border-b-[1px] border-greyFour  dark:border-blackOne pb-3 text-greyTwo">
+                        <span class="flex items-center justify-center p-0 m-0">
+                            <i class="p-0 m-0 fa-solid fa-house homeLink" id="homeLink"></i>
+                        </span>
+                        <a class="mx-[14px]" id="homeLink" class="homeLink" href="./">Home</a>
+                    </li>
+                    <li
+                        class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+                        <span class="flex items-center justify-center icon1">
+                            <i class="p-0 m-0 fa-solid fa-chevron-left"></i>
+                            <i class="p-0 m-0 fa-solid fa-chevron-right"></i>
+                        </span>
+                        <a id="moblink" class="mx-2.5" href="./services.html">Services</a>
+                    </li>
+                    <li
+                        class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+                        <span class="flex items-center justify-center icon1">
+                            <i class="p-0 m-0 fa-solid fa-people-group"></i>
+                        </span>
+                        <a id="moblink" class="mx-2" href="./about.html">About Us</a>
+                    </li>
+                    <li
+                    class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+                    <span class="flex items-center justify-center icon1">
+                        <i class="p-0 m-0 fa-solid fa-book"></i>
+                    </span>
+                    <a id="moblink" class="mx-2.5" href="./resources.html">Resources</a>
+                </li>
+                    <li
+                        class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+                        <span class="flex items-center justify-center icon1">
+                            <i class="p-0 m-0 text-lg fa-solid fa-briefcase"></i>
+                        </span>
+                        <a id="moblink" class="mx-2.5" href="./careers.html">Careers</a>
+                    </li>
+                    <li
+                        class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+                        <span class="flex items-center justify-center icon1">
+                            <i class="text-lg pm-0 -0 fa-regular fa-envelope"></i>
+                        </span>
+                        <a id="moblink" class="mx-2.5" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li
+                        class="flex items-center justify-between flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+                        <div class="flex flex-row items-center">
+                            <span class="flex items-center justify-center icon1">
+                                <i class="p-0 m-0 text-lg fa-regular fa-file-lines"></i>
+                            </span>
+                            <a id="moblink" class="mx-3.5" href="https://blogs.kanakasoftware.com/"
+                                target="_blank">Blogs</a>
+                        </div>
+                        <span class="ml-40 icon1">
+                            <a href="https://blogs.kanakasoftware.com/" target="_blank">
+                                <i class="text-lg fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+                <div class="fixed bottom-0 grid w-full py-8 dark:bg-blackOne lg:grid-cols-12 pe-8 ps-4 bg-greyFour">
+                    <div class="lg:col-span-1 md:col-span-12">
+                        <a href="./">
+                            <img src="./assets/images/kanaka_logo_light.png" alt=""
+                                class="align-middle h-[1rem] object-contain" id="mobfooterlogo" />
+                        </a>
+                    </div>
+                    <div
+                        class="flex self-center justify-between py-5 font-light md:justify-start lg:col-span-8 md:col-span-6 lg:py-0">
+                        <div class="text-xs tracking-tight dark:text-greyFive text-greyOne">
+                            <a href="" id="mobprivacyPolicy">Privacy Policy</a>
+                        </div>
+                        <div class="text-xs tracking-tight dark:text-greyFive text-greyOne">
+                            <a href="" id="mobterms">Terms & Conditions</a>
+                        </div>
+                        <div class="text-xs tracking-tight dark:text-greyFive text-greyOne">
+                            <a href="" id="mobcookie"> Cookie Policy</a>
+                        </div>
+                    </div>
+                    <div class="flex self-center justify-start font-light md:justify-end lg:col-span-3 md:col-span:6">
+                        <div class="text-xs dark:text-greyFive text-greyOne">
+                            ©2023 Kanaka Software | All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="dark:border-blackOne border-greyThree lg:hidden" id="seperator">
+    </nav>
+
+    <div id="mainbody"
+        class="3xl:pt-[156px] 2xl:pt-[124.80px] xl:pt-[104px] lg:pt-[83.2px] pt-[97px] dark:bg-[#202124]">
+
+        <div
+            class="grid grid-cols-12 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.33rem] lg:px-[3.46rem] px-5 3xl:mb-[78px] 2xl:mb-[62.40px] xl:mb-[52px] lg:mb-[41.6px]">
+            <div class="md:col-span-7 col-span-12 3xl:pe-[3rem] 2xl:pe-[2.4rem] xl:pe-[2rem] lg:pe-[1.6rem] md:p-0">
+                <div
+                    class="text-[#919191] font-medium 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-xs lg:tracking-wider 3xl:mt-4 2xl:mt-[3.2px] xl:mt-[2.66px] lg:mt-[2.13px]">
+                    WELCOME TO KANAKA
+                </div>
+                <div
+                    class="font-semibold 3xl:text-[88px] 2xl:text-[70.4px] xl:text-[58.66px] lg:text-[46.93px] text-[32px] 3xl:leading-[100px] 2xl:leading-[80px] xl:leading-[66.66px] lg:leading-[53.33px] 3xl:mt-4 2xl:mt-[3.2px] xl:mt-[2.66px] lg:mt-[2.13px] mt-2 text-[#202124] dark:text-[#FFFFFF]">
+                    Kanaka <span class="text-[#F15A27]">Services</span></div>
+                <div
+                    class="text-[#202124] 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs md:text-xs text-sm 3xl:mr-44 2xl:mr-[110.8px] xl:mr-[117.33px] lg:mr-[93.86px] 3xl:mt-10 2xl:mt-[32px] xl:mt-[26.66px] lg:mt-[21.33px] mt-6 dark:text-[#D9D9D9] lg:tracking-wide ">
+                    <div class="3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 ">
+                        At Kanaka, we provide outsourced product development, data engineering, and data science
+                        services that are key drivers of innovation and efficiency.
+                    </div>
+                    <div
+                        class="col-span-12 3xl:ps-14 2xl:ps-[44.80px] xl:ps-[37.33px] lg:ps-[29.86px] rounded-xl my-10 lg:hidden block">
+                        <div class="overflow-hidden rounded-xl">
+                            <img src="./assets/images/main/Services.jpg" alt=""
+                                class="3xl:h-[47.125rem] 2xl:h-[37.7rem] xl:h-[31.41rem] lg:h-[25.13rem] 3xl:w-[618px] 2xl:w-[494.40px] xl:w-[412px] lg:w-[329.6px] hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                        </div>
+                    </div>
+                    <div
+                        class="3xl:py-4 2xl:py-[12.8px] xl:py-[10.66px] lg:py-[8.53px] pb-4 font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 ">
+                        They enable organizations to accelerate time-to-market, optimize costs, and focus on core
+                        competencies.
+                    </div>
+                    <div
+                        class="font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6">
+                        Kanaka can help build a powerful ecosystem that drives efficiency, innovation, and strategic
+                        growth for organizations.
+                    </div>
+                </div>
+                <div
+                    class="flex md:justify-between 3xl:p-6 2xl:p-[30.6px] xl:p-[21.33px] lg:p-[17.06px] p-5 bg-[#F7F4F2] 3xl:mt-[73px] 2xl:mt-[58.40px] xl:mt-[48.66px] lg:mt-[38.93px] mt-[73px] rounded-xl md:flex hidden 3xl:w-[22.938rem] 2xl:w-[20rem] xl:w-[15.29rem] lg:w-[12.23rem] dark:bg-[#35363A]">
+                    <div class="3xl:mt-4 2xl:mt-[3.2px] xl:mt-[2.66px] lg:mt-[2.13px] ">
+                        <img src="./assets/images/services/great_place_to_work.png" alt=""
+                            class="3xl:h-[5.401rem] 2xl:h-[4.32rem] xl:h-[3.60rem] lg:h-[2.88rem] max-w-fit">
+                    </div>
+                    <div
+                        class="text-[#002171] 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm font-medium ml-3 self-center dark:text-[#FFFFFF] xl:tracking-tight">
+                        We’re Great
+                        Place to Work Certified</div>
+                </div>
+            </div>
+            <div
+                class="flex md:justify-end md:col-span-5 col-span-12 relative 3xl:ps-14 2xl:ps-[44.80px] xl:ps-[37.33px] lg:ps-[29.86px] rounded-xl">
+                <div class="overflow-hidden rounded-xl">
+                    <img src="./assets/images/main/Services.jpg" alt=""
+                        class="3xl:h-[47.125rem] 2xl:h-[37.7rem] xl:h-[31.41rem] lg:h-[25.13rem] 3xl:w-[618px] 2xl:w-[494.40px] xl:w-[412px] lg:w-[329.6px] hover:scale-110 transition delay-150 duration-300 ease-in-out lg:block hidden">
+                </div>
+            </div>
+            <div
+                class="col-span-12 flex md:justify-between 3xl:p-6 2xl:p-[19.20px] xl:p-[16px] lg:p-[12.8px] p-8 bg-[#F7F4F2] 3xl:mt-[73px]  2xl:mt-[58.40px] xl:mt-[48.66px] lg:mt-[38.93px] rounded-xl md:w-[22.938rem] md:hidden block lg:my-0 my-10 dark:bg-[#35363A] ">
+                <div class="">
+                    <img src="./assets/images/services/great_place_to_work.png" alt="" class="max-w-fit">
+                </div>
+                <div
+                    class="text-[#002171] lg:text-base md:text-xs text-sm font-medium ps-3 self-center dark:text-[#FFFFFF]">
+                    We’re Great
+                    Place to Work Certified</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-12 3xl:px-[4rem] 2xl:px-[3.2rem] xl:px-[2.66rem] lg:px-[2.13rem] px-5 pt-8 pb-10 3xl:py-[142px] 2xl:py-[113.60px] xl:py-[94.66px] lg:py-[75.73px] bg-[#F7F4F2] 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.33rem] lg:px-[3.46rem] dark:bg-[#35363A]"
+            id="serviceOffered">
+            <div class="col-span-12">
+                <div
+                    class="text-[#919191] font-medium 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-xs lg:tracking-wider">
+                    SERVICES OFFERED</div>
+            </div>
+            <div class="lg:col-span-4 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-6 md:col-span-6 col-span-12 md:rounded-tl-xl md:rounded-tr-xl md:rounded-br-xl md:rounded-bl-xl md:rounded-t-none rounded-t-xl md:rounded-b-none rounded-b-xl bg-[white] dark:bg-[#202124] border-[1px] border-[#DDE0E5] dark:border-[#202124]"
+                id="serviceOfferFirstCardDiv">
+                <div class="3xl:p-8 2xl:p-[25.6px] xl:p-[21.33px] lg:p-[17.06px] p-4">
+                    <div>
+                        <img src="./assets/images/main/Outsourced_Product.jpg" alt=""
+                            class="w-full 3xl:h-[400px] 2xl:h-[320px] xl:h-[266.66px] lg:h-[213.33px]">
+                    </div>
+                    <div class="pt-5">
+                        <div
+                            class="font-medium 3xl:text-2xl 2xl:text-[18px] xl:text-base lg:text-xs text-sm text-[#202124] lg:tracking-wide dark:text-[#FFFFFF]">
+                            OUTSOURCED PRODUCT DEVELOPMENT
+                        </div>
+                    </div>
+                    <div
+                        class="text-[#F15A27] 3xl:text-xl 2xl:text-base xl:text-sm lg:text-[10px] text-xs lg:tracking-wide">
+                        <div>Unlocking Efficiency</div>
+                    </div>
+                    <button
+                        class="bg-[#F15A27] px-3 mt-5 text-white rounded-md buttonOnServiceImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[40px] w-[40px] flex justify-center items-center"
+                        onclick="toggleService('serviceOfferFirstCardDiv')">
+                        <i class="fa-solid fa-arrow-right text-[white]"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="lg:col-span-8 md:col-span-6 col-span-12 px-8 3xl:pt-8 2xl:pt-[25.6px] xl:pt-[21.33px] lg:pt-[17.06px] bg-[white] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px]  md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#202124] pb-6 lg:pb-0"
+                id="serviceOfferFirstDescriptionDiv">
+                <div class="text-right">
+                    <button onclick="handleCloseServiceDiscription('serviceOfferFirstCardDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[10px] text-xs mt-3 bg-[white] dark:text-[#D9D9D9] dark:bg-[#202124]">
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        In today's fast-paced business landscape, outsourced product development has become a
+                        attractive level for improving innovation and efficiency within organizations. By partnering
+                        with Kanaka, a trusted and experienced outsourcing provider, companies can gain access to a
+                        wealth of Product Engineering expertise, competent and scalable workforce on popular technology
+                        stacks.
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        Partnering with Kanaka offers a strategic advantage to organizations by leveraging top-quality
+                        resources to accelerate product development, reduce time-to-market, and optimize costs. With a
+                        collaborative approach and seamless integration, outsourcing can open doors to fresh
+                        perspectives, foster cross-pollination of ideas, and ultimately delivers exceptional products
+                        that meet customer demands.
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        Embrace the power of outsourced product development with Kanaka and unlock the full potential of
+                        your organization's growth and success!
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="lg:col-span-4 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-6 md:col-span-6 col-span-12 md:rounded-tl-xl md:rounded-tr-xl md:rounded-br-xl md:rounded-bl-xl md:rounded-t-none rounded-t-xl md:rounded-b-none rounded-b-xl bg-[white] dark:bg-[#202124] border-[1px] border-[#DDE0E5] dark:border-[#202124]"
+                id="serviceOfferSecondCardDiv">
+                <div class="3xl:p-8 2xl:p-[25.6px] xl:p-[21.33px] lg:p-[17.06px] p-4 rounded-xl">
+                    <div>
+                        <img src="./assets/images/main/Data_Engineering.jpg" alt=""
+                            class="w-full 3xl:h-[400px] 2xl:h-[320px] xl:h-[266.66px] lg:h-[213.33px]">
+                    </div>
+                    <div class="pt-5">
+                        <div
+                            class="font-medium 3xl:text-2xl 2xl:text-[18px] xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124] lg:tracking-wide">
+                            DATA ENGINEERING</div>
+                    </div>
+                    <div
+                        class="text-[#F15A27] 3xl:text-[18px] 2xl:text-[14.4px] xl:text-[12px] lg:text-[9.6px] 3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] text-xs lg:tracking-wide">
+                        <div>Building the Foundation for Data-Driven Success</div>
+                    </div>
+                    <button
+                        class="bg-[#F15A27] px-3 mt-5 text-white rounded-md buttonOnServiceImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[40px] w-[40px] flex justify-center items-center"
+                        onclick="toggleService('serviceOfferSecondCardDiv')">
+                        <i class="fa-solid fa-arrow-right text-[white]"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="lg:col-span-8 md:col-span-6 col-span-12 px-8 3xl:pt-8 2xl:pt-[25.6px] xl:pt-[21.33px] lg:pt-[17.06px] bg-[white] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px]  md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#202124] pb-6 lg:pb-0"
+                id="serviceOfferSecondDescriptionDiv">
+                <div class="text-right">
+                    <button onclick="handleCloseServiceDiscription('serviceOfferSecondCardDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[10px] text-xs mt-3 bg-[white] dark:text-[#D9D9D9] dark:bg-[#202124]">
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        Kanaka's Data engineering services encompass a wide range of solutions tailored to meet the
+                        complex needs of organization's data-driven landscape.
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        Our skilled data engineers leverage their experience and expertise to design and develop
+                        scalable data infrastructure, implement efficient data pipelines, and optimize data storage and
+                        retrieval mechanisms. We have significant capabilities to implement seamless integration of
+                        disparate data sources, perform data transformations, and ensure data quality through validation
+                        and cleansing processes. Additionally, as part of our data engineering services we have also
+                        developed expertise in implementing real-time data streaming solutions at scale. Our team can
+                        also provide support and consultancy in the areas of data governance and security frameworks.
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        By partnering with Kanaka and its team of experienced data engineers, organizations can unlock
+                        the full potential of their data, gain valuable insights, make informed decisions, and drive
+                        transformative outcomes.
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-4 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-6 md:col-span-6 col-span-12 md:rounded-tl-xl md:rounded-tr-xl md:rounded-br-xl md:rounded-bl-xl md:rounded-t-none rounded-t-xl md:rounded-b-none rounded-b-xl bg-[white] dark:bg-[#202124] border-[1px] border-[#DDE0E5] dark:border-[#202124]"
+                id="serviceOfferThirdCardDiv">
+                <div class="3xl:p-8 2xl:p-[25.6px] xl:p-[21.33px] lg:p-[17.06px] p-4 rounded-xl">
+                    <div>
+                        <img src="./assets/images/main/Data_Science.jpg" alt=""
+                            class="w-full 3xl:h-[400px] 2xl:h-[320px] xl:h-[266.66px] lg:h-[213.33px]">
+                    </div>
+                    <div class="pt-5">
+                        <div
+                            class="font-medium 3xl:text-2xl 2xl:text-[18px] xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124] lg:tracking-wide">
+                            DATA SCIENCE</div>
+                    </div>
+                    <div
+                        class="text-[#F15A27] 3xl:text-xl 2xl:text-base xl:text-sm lg:text-[10px] text-xs lg:tracking-wide">
+                        <div>Empowering Data-Driven Transformation</div>
+                    </div>
+                    <button
+                        class="bg-[#F15A27] px-3 mt-5 text-white rounded-md buttonOnServiceImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[40px] w-[40px] flex justify-center items-center"
+                        onclick="toggleService('serviceOfferThirdCardDiv')">
+                        <i class="fa-solid fa-arrow-right text-[white]"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="lg:col-span-8 md:col-span-6 col-span-12 px-8 3xl:pt-8 2xl:pt-[25.6px] xl:pt-[21.33px] lg:pt-[17.06px] bg-[white] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px]  md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#202124] pb-6 lg:pb-0"
+                id="serviceOfferThirdDescriptionDiv">
+                <div class="text-right">
+                    <button onclick="handleCloseServiceDiscription('serviceOfferThirdCardDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[10px] text-xs mt-3 bg-[white] dark:text-[#D9D9D9] dark:bg-[#202124]">
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        Kanaka's Data Science services offer organizations a comprehensive range of solutions to harness
+                        the power of data and drive transformative outcomes. Leveraging advanced analytics, machine
+                        learning, and predictive modeling techniques, to extract valuable insights, make informed
+                        decisions, and gain a competitive edge. Skilled data scientists work closely with organizations
+                        to develop tailored strategies that address complex challenges. Data Science services encompass
+                        the end-to-end process of data exploration, model development and extracting meaningful insights
+                        from data. Organizations can unlock the full potential of their data, optimize operations,
+                        enhance customer experiences, and propel data-driven transformation in their organization.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-12 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.33rem] lg:px-[3.46rem] 3xl:py-[6rem] 2xl:py-[4.80rem] xl:py-[4rem] lg:py-[3.2rem] px-5 py-10"
+            id="mainExpertiesDiv">
+            <div class="col-span-12">
+                <div
+                    class="text-[#919191] font-medium 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-xs lg:tracking-wider 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px]">
+                    INDUSTRY EXPERTISE
+                </div>
+            </div>
+            <div class="lg:col-span-3 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-8 md:col-span-4 col-span-12 3xl:h-[545px] 2xl:h-[436px] xl:h-[363.33px] lg:h-[290.66px] h-[431.68px] rounded-l-xl"
+                id="firstMainDiv">
+                <div class="block h-full max-w-sm p-6 bg-cover rounded-xl industry-card-background1" id="firstImage">
+                    <div class="flex items-end justify-between h-full">
+                        <div
+                            class="text-base font-medium text-white 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs lg:tracking-wide">
+                            Fintech</div>
+                        <button
+                            class="bg-[#00A651] px-3 mt-5 text-white rounded-md buttonOnImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[38.02px] w-[38.02px] flex justify-center items-center"
+                            onclick="toggle('firstMainDiv')">
+                            <i class="fa-solid fa-arrow-right text-[white]"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-9 md:col-span-8 col-span-12 p-8 bg-[#F5F5F5] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#35363A]"
+                id="firstDivDisc">
+                <div class="text-right">
+                    <button onclick="handleCloseDiscription('firstMainDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[9px] text-xs dark:text-[#D9D9D9] ">
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        Our product development services have significant domain expertise for building products and
+                        solutions in key FinTech areas such as
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        - Online Banking <br>
+                        - Electronic Payments <br>
+                        - Credit Risk Scoring <br>
+                        - Portfolio Management
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        As a team, we have a deep understanding of the financial industry, including experience in
+                        Banking,
+                        Stock Exchanges, Financial Regulators, Wealth Management. We combine cutting-edge technology
+                        with
+                        industry expertise to build secure, scalable, and innovative solutions for our customers.
+                        Our team of skilled developers, engineers, and data scientists collaborate closely with fintech
+                        clients to design and build robust platforms, advanced algorithms, and process automations to
+                        streamline operations, enhance accuracy, optimize strategies, and deliver seamless experiences.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="lg:col-span-3 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-8 md:col-span-4 col-span-12 3xl:h-[545px] 2xl:h-[436px] xl:h-[363.33px] lg:h-[290.66px] h-[431.68px] rounded-l-xl"
+                id="secondMainDiv">
+                <div class="block h-full max-w-sm p-6 bg-cover rounded-xl industry-card-background2" id="secondImage">
+                    <div class="flex items-end justify-between h-full">
+                        <div
+                            class="text-base font-medium text-white 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs lg:tracking-wide">
+                            Healthcare</div>
+                        <button
+                            class="bg-[#00A651] px-3 mt-5 text-white rounded-md buttonOnImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[38.02px] w-[38.02px] flex justify-center items-center"
+                            onclick="toggle('secondMainDiv')">
+                            <i class="fa-solid fa-arrow-right text-[white]"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-9 md:col-span-8 col-span-12 p-8 bg-[#F5F5F5] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#35363A]"
+                id="secondDivDisc">
+                <div class="text-right">
+                    <button onclick="handleCloseDiscription('secondMainDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[9px] text-xs 3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6 dark:text-[#D9D9D9] ">
+                    Healthcare organizations use technology to enhance patient care, and bolster data security. We work
+                    on solutions that are designed with a deep commitment to patient well-being, regulatory compliance,
+                    and
+                    technological excellence. By partnering with us, we can advance the quality and safety of healthcare
+                    services for all.
+                    At team Kanaka, we have domain expertise around building solutions for electronic record management.
+                    The solutions offer healthcare providers efficient and secure ways to handle patient data, ensuring
+                    compliance with regulations like HIPAA, seamless interoperability, and data accuracy. We also have
+                    built solutions for senior citizen homes that cater to hospice and long-term care facilities,
+                    enhancing resident management, medication tracking, and quality of life monitoring, all while
+                    maintaining the utmost respect and compassion. In addition, we have significant expertise around
+                    Medical Device Security. In an era of connected healthcare, securing medical devices is paramount.
+                    We have built solutions that provide risk altering and mitigation against potential threats and
+                    compromises of data.
+                </div>
+            </div>
+            <div class="lg:col-span-3 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-8 md:col-span-4 col-span-12 3xl:h-[545px] 2xl:h-[436px] xl:h-[363.33px] lg:h-[290.66px] h-[431.68px] rounded-l-xl"
+                id="thirdMainDiv">
+                <div class="block h-full max-w-sm p-6 bg-cover rounded-xl industry-card-background3" id="thirdImage">
+                    <div class="flex items-end justify-between h-full">
+                        <div
+                            class="text-base font-medium text-white 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs lg:tracking-wide">
+                            Retail</div>
+                        <button
+                            class="bg-[#00A651] px-3 mt-5 text-white rounded-md buttonOnImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[38.02px] w-[38.02px] flex justify-center items-center"
+                            onclick="toggle('thirdMainDiv')">
+                            <i class="fa-solid fa-arrow-right text-[white]"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-9 md:col-span-8 col-span-12 p-8 bg-[#F5F5F5] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#35363A]"
+                id="thirdDivDisc">
+                <div class="text-right">
+                    <button onclick="handleCloseDiscription('thirdMainDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[9px] text-xs 3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6 dark:text-[#D9D9D9] ">
+                    In a highly competitive world of retail and consumer products, customers gain advantage by deploying
+                    cutting-edge tools that optimize operations, drive sales, and enhance customer satisfaction. We have
+                    worked on solutions that are adaptable, scalable, and finely tuned to the nuances of the retail
+                    industry.
+                    Together, we can transform your retail business into a competitive force in the market.
+
+                    We have designed and built solutions to address dynamic pricing problems to optimize pricing
+                    strategies, maximize margins, and ensure competitiveness. We have worked on solutions that are
+                    adaptable,
+                    streamline the logistics and supply chain process by providing end-to-end visibility of inventory,
+                    demand forecasting, and order fulfillment. We also have expertise in building solutions for
+                    one-on-one personalized promotional strategies that automates promotions, tracks their
+                    effectiveness, and adjusts campaigns in real-time to boost sales and customer loyalty.
+                </div>
+            </div>
+            <div class="lg:col-span-3 3xl:mr-5 2xl:mr-[16px] xl:mr-[13.33px] lg:mr-[10.66px] 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-8 md:col-span-4 col-span-12 3xl:h-[545px] 2xl:h-[436px] xl:h-[363.33px] lg:h-[290.66px] h-[431.68px] rounded-l-xl"
+                id="fourthMainDiv">
+                <div class="block h-full max-w-sm p-6 bg-cover rounded-xl industry-card-background4" id="fourthImage">
+                    <div class="flex items-end justify-between h-full">
+                        <div
+                            class="text-base font-medium text-white 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs lg:tracking-wide">
+                            Technology</div>
+                        <button
+                            class="bg-[#00A651] px-3 mt-5 text-white rounded-md buttonOnImage 3xl:h-12 2xl:h-[38.40px] xl:h-[32px] lg:h-[25.6px] 3xl:w-12 2xl:w-[38.40px] xl:w-[32px] lg:w-[25.6px] h-[38.02px] w-[38.02px] flex justify-center items-center"
+                            onclick="toggle('fourthMainDiv')">
+                            <i class="fa-solid fa-arrow-right text-[white]"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-9 md:col-span-8 col-span-12 p-8 bg-[#F5F5F5] hidden 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] md:rounded-r-xl md:rounded-b-none rounded-b-xl dark:bg-[#35363A]"
+                id="fourthDivDisc">
+                <div class="text-right">
+                    <button onclick="handleCloseDiscription('fourthMainDiv')">
+                        <i class="text-2xl fa-regular fa-circle-xmark text-orangeOne"></i>
+                    </button>
+                </div>
+                <div
+                    class="3xl:pe-24 2xl:pe-[76.80px] xl:pe-[64px] lg:pe-[51.2px] text-[#5F6368] 3xl:text-lg 2xl:text-base xl:text-sm lg:text-[9px] text-xs dark:text-[#D9D9D9]">
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        In today's dynamic technological landscape, we're at the forefront of using cutting-edge
+                        technologies to build the right solutions for customers.
+                        Following are some of the latest trends / technologies where we have developed significant
+                        expertise and built solutions
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        - Blockchain <br>
+                        - Vertical Cloud Engineering <br>
+                        - Digital Twin <br>
+                        - AI (Artificial Intelligence)<br>
+                        - FDD (Fault Detection and Diagnosis)
+                    </div>
+                    <div class="3xl:leading-8 2xl:leading-[25.6px] xl:leading-[21.33px] lg:leading-[17.06px] leading-6">
+                        We help customers drive innovation, efficiency, and help in positioning your organization for
+                        success in a rapidly evolving world. Working together, we can harness the potential of the
+                        latest tools and technologies to fuel growth and excellence.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="3xl:pb-[6rem] 2xl:pb-[4.80rem] xl:pb-[4rem] lg:pb-[3.2rem] 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.3rem] lg:px-[3.46em] px-5 lg:mt-4 lg:my-0 my-10 dark:bg-[#202124]"
+            id="customer_testimonial">
+            <div
+                class="col-span-12 text-[#919191] 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-xs font-medium">
+                CUSTOMER TESTIMONIALS
+            </div>
+            <div class="owl-carousel owl-theme mt-9">
+                <div
+                    class="item border-[#DDE0E5] dark:border-[#202124] border-[1px] rounded-xl p-5 dark:bg-[#35363A] card-height">
+                    <div class="flex">
+                        <div>
+                            <img src="./assets/images/1.png" alt="" class="w-12 h-auto lg:w-auto">
+                        </div>
+                        <div class="self-center ms-6">
+                            <div
+                                class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs font-medium text-base dark:text-[#FFFFFF]">
+                                Yogesh Kulkarni</div>
+                            <div
+                                class="text-[#F15A27] dark:text-[#F7C400] 3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-sm">
+                                CEO, Prognos Inc.</div>
+                        </div>
+                    </div>
+                    <div
+                        class="3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-xs font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-4 dark:text-[#D9D9D9]">
+                        Kanaka has consistently demonstrated a profound understanding of our complex business needs and
+                        have shown a remarkable ability to translate that into innovative solutions. They are an
+                        integral part of our team, consistently exceeding expectations and showcasing their unwavering
+                        focus on delivering results. Their technical expertise, dedication, and problem-solving skills
+                        significantly contribute to our success.
+                    </div>
+                </div>
+                <div
+                    class="item border-[#DDE0E5] dark:border-[#202124] border-[1px] rounded-xl p-5 dark:bg-[#35363A] card-height">
+                    <div class="flex">
+                        <div>
+                            <img src="./assets/images/3.png" alt="" class="w-12 h-auto lg:w-auto">
+                        </div>
+                        <div class="self-center ms-6">
+                            <div
+                                class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs font-medium text-base dark:text-[#FFFFFF]">
+                                Zach Bennett</div>
+                            <div
+                                class="text-[#F15A27] dark:text-[#F7C400] 3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-sm">
+                                CEO, Visual Enterprise <br class="xl:hidden"> Architecture</div>
+                        </div>
+                    </div>
+                    <div
+                        class="3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-xs font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-4 dark:text-[#D9D9D9]">
+                        During our collaboration of more than a decade with Kanaka, we have experienced exceptional
+                        service delivery, technical acumen and most importantly the strong ability to implement software
+                        solutions for our top-tier customers. As our long-standing delivery partner, Kanaka has
+                        demonstrated outstanding communication and collaboration skills to ensure our mutual success.
+                        Their dedication to excellence, reliability, and delivering on time and within budget is truly
+                        commendable.
+                    </div>
+                </div>
+                <div
+                    class="item border-[#DDE0E5] dark:border-[#202124] border-[1px] rounded-xl p-5 dark:bg-[#35363A] dark:border-[#35363A] card-height">
+                    <div class="flex">
+                        <div>
+                            <img src="./assets/images/2.png" alt="" class="w-12 h-auto lg:w-auto">
+                        </div>
+                        <div class="self-center ms-6">
+                            <div
+                                class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs font-medium text-base dark:text-[#FFFFFF]">
+                                Manish Jadhav</div>
+                            <div
+                                class="text-[#F15A27] dark:text-[#F7C400] 3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-sm">
+                                CTO, Vigilant Ops</div>
+                        </div>
+                    </div>
+                    <div
+                        class="3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-xs font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-4 dark:text-[#D9D9D9]">
+                        In our journey to enhance our Insight SaaS product, Kanaka stood out as a true partner. Their
+                        team seamlessly understood the application, showcasing not only reliability and adaptability but
+                        also the exceptional responsiveness. Kanaka is a cornerstone of our ongoing success, and I
+                        wholeheartedly recommend their expertise.
+                    </div>
+                </div>
+                <div
+                    class="item border-[#DDE0E5] dark:border-[#202124] border-[1px] rounded-xl p-5 dark:bg-[#35363A] dark:border-[#35363A] card-height">
+                    <div class="flex">
+                        <div>
+                            <img src="./assets/images/4.png" alt="" class="w-12 h-auto lg:w-auto">
+                        </div>
+                        <div class="self-center ms-6">
+                            <div
+                                class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs font-medium text-base dark:text-[#FFFFFF]">
+                                Stephen Leonard</div>
+                            <div
+                                class="text-[#F15A27] dark:text-[#F7C400] 3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-sm">
+                                <a href="https://adeptdecisions.com/" target="_blank" class="no-underline ">Founder,
+                                    ADEPT Decisions</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="3xl:text-xl 2xl:text-base lg:text-sm lg:text-xs text-xs font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 3xl:mt-8 2xl:mt-[25.6px] xl:mt-[21.33px] lg:mt-[17.06px] mt-4 dark:text-[#D9D9D9]">
+                        I highly recommend Kanaka Software for their integral role in developing and implementing our
+                        enterprise Credit Risk Decisioning Platform. Their adaptable services, coupled with responsive
+                        support over multiple years, have been instrumental in the success of the ADEPT Decisions
+                        Platform.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-[#F5F5F5] 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.3rem] lg:px-[3.46em] px-5 3xl:py-10 2xl:py-[32px] xl:py-[26.66px] lg:py-[21.33px] py-5  dark:bg-[#35363A]"
+        id="footer">
+        <div class="grid grid-cols-2 gap-5 lg:grid-cols-12 md:grid-cols-3 lg:gap-14 ">
+            <div class="lg:col-span-2">
+                <ul>
+                    <li
+                        class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+                        <a href="./services.html#serviceOffered">Services Offered</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] pb-4 dark:text-[#D9D9D9]">
+                        <a href="./services.html#mainExpertiesDiv">Industry Expertise</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+                        <a href="./services.html#customer_testimonial">Customer Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:col-span-2">
+                <ul>
+                    <li
+                        class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+                        <a href="./about.html">About Us</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+                        <a href="./about.html">Our Mission</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+                        <a href="./about.html#ourCulture">Our Culture</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+                        <a href="./about.html#leadership">Meet Kanaka’s Leadership</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:col-span-2">
+                <ul>
+                    <li
+                        class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+                        <a href="./careers.html">Careers</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+                        <a href="./careers.html">Join Us</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+                        <a href="./careers.html#empTestimonials">Employee Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:col-span-2">
+                <ul>
+                    <li
+                        class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+                        <a href="./contact.html">Get In Touch</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+                        <a href="./contact.html#locations">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:col-span-2">
+                <ul>
+                    <li
+                        class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+                        <a href="https://blogs.kanakasoftware.com/" target="_blank">Blogs</a>
+                    </li>
+                    <li
+                        class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] pt-4 dark:text-[#D9D9D9]">
+                        <a href="./careers.html#LifeatKanaka">Life@Kanaka</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:col-span-2">
+                <div
+                    class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+                    Stay Connected</div>
+                <div class="flex pt-4 md:justify-start">
+                    <div>
+                        <a href="https://www.linkedin.com/company/kanakasoftware/" target="_blank">
+                            <i
+                                class="fa-brands fa-linkedin 3xl:text-[40px] 2xl:text-[32px] xl:text-[26.66px] lg:text-[21.33px] text-[24px] dark:text-[white] text-[#202124]"></i>
+                        </a>
+                    </div>
+                    <div class="3xl:ps-10 2xl:ps-[32px] xl:ps-[26.66px] lg:ps-[21.33px] ps-[16px]">
+                        <a href="https://www.instagram.com/kanakasoftware/" target="_blank">
+                            <i
+                                class="fa-brands fa-instagram 3xl:text-[40px] 2xl:text-[32px] xl:text-[26.66px] lg:text-[21.33px] text-[24px] dark:text-[white] text-[#202124]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="w-full 3xl:my-10 2xl:my-[32px] xl:my-[21.66px] lg:my-[21.33px] my-9 dark:border-[#717579]">
+        <div class="grid lg:grid-cols-12">
+            <div
+                class="lg:col-span-2 md:col-span-12 3xl:w-[11.579rem] 2xl:w-[9.26rem] xl:w-[7.71rem] lg:w-[6.17rem] w-24 h-auto ">
+                <a href="./index.html">
+                    <img src="./assets/images/kanaka_logo_light.png" alt="" class="object-contain align-middle"
+                        id="footer_logos_kanaka">
+                </a>
+            </div>
+            <div
+                class="flex self-center justify-between py-5 font-light md:justify-start lg:col-span-7 md:col-span-6 lg:py-0">
+                <div
+                    class="3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] 3xl:px-8 2xl:px-[25.6px] xl:px-[21.33px] lg:px-[17.06px] dark:text-[#D9D9D9]">
+                    <a href="" id="privacyPolicy">Privacy Policy</a>
+                </div>
+                <div class="3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] dark:text-[#D9D9D9]">
+                    <a href="" id="terms">Terms & Conditions</a>
+                </div>
+                <div
+                    class="3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] 3xl:px-8 2xl:px-[25.6px] xl:px-[21.33px] lg:px-[17.06px] dark:text-[#D9D9D9]">
+                    <a href="" id="cookie"> Cookie Policy</a>
+
+                </div>
+            </div>
+            <div class="flex self-center justify-start font-light md:justify-end lg:col-span-3 md:col-span:6">
+                <div class=" 3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] dark:text-[#D9D9D9]">
+                    ©2023 Kanaka Software
+                    |
+                    All Rights
+                    Reserved</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden fixed w-[100vw] h-[100vh] top-0 3xl:px-[80px] 2xl:px-[64px] xl:px-[53.33px] lg:px-[42.66px] px-5 dark:bg-modalBgColor1 bg-modalBgColor flex items-center justify-center modal-z-index"
+        id="modal">
+        <div
+            class="dark:bg-dark-bg-black bg-white dark:text-white text-dark-bg-black rounded-2xl p-4 shadow-lg shadow-[#5F6368] lg:h-auto h-[70vh] lg:mx-44 mx-0  overflow-y-auto ">
+            <div id="modalContent" class="">
+            </div>
+
+        </div>
+    </div>
+
+    <script defer src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "The Next Leap in AI: How Titans are Overcoming Transformer Limitations",
+    "description": "As Gen AI developers, we’re all familiar with the power of Transformers, those incredible models that have revolutionised how machines understandand generate language. But like any technology, they have limitations, especially when dealing with complex, real-world tasks. Today, let’s explore these issues and how a new architecture called Titans aims to tackle them,and what this means for the future of AI.",
+    "link": "./assets/resource/pdf/The Next leap.pdf"
+  },
+  {
+    "title": "Why Reasoning Tokens Are LLMs’New Secret Weapon",
+    "description": "Imagine giving AI the cognitive equivalent of rocket fuel. That’s exactly what reasoning tokens do for LLMs–transforming basic language models into strategic powerhouses capable of enterprise-grade problem solving. Watch as GPT-40 mini, armed with DeepSeek’s reasoning tokens, evolves from a average code generator into a intelligent architect. What starts as a simple server monitoring script becomes a dynamic diagnostic suite, complete with real-time dashboard. This isn’t just smarter AI–it’s strategic AI, redefining what lean models can achieve when plugged into elite reasoning frameworks.",
+    "link": "./assets/resource/pdf/Why Reasoning Tokens Are LLMs’.pdf"
+  },
+  {
+    "title": "AI Agents Made Easy: Practical Demos for Everyone",
+    "description": "Artificial Intelligence (AI) agents are revolutionizing the way businesse soperate, interact with customers, and streamline their processes. Imagine having a digital assistant that not only understands your requests but also anticipates your needs, automates routine tasks, and continuously learns to improve its performance. This is the promise of AI agents, a technology poised to transform industries across the globe.",
+    "link": "./assets/resource/pdf/AI agents Made easy.pdf"
+  },
+  {
+    "title": "From Chatbots to Virtual Assistants - The Evolution of Conversational AI",
+    "description": "Once upon a time, talking to your computer seemed like a sci-fi movie. Fast forward to today, and we’re casually asking our phones to play music, set reminders, and tell us the weatherall without lifting a finger. This magical ability comes by the courtesy of conversational AI, a fascinating technology that has evolved from simple chatbots to the sophisticated virtual assistants we now rely on every day. Buckle up as we take you on a journey through the world of conversational AI, where we’ll explore how we got here, where we’re headed, and why we sometimes still yell at our devices when they misunderstand us.",
+    "link": "./assets/resource/pdf/From Chatbots to Virtual Assistants.pdf"
+  },
+  {
+    "title": "Mastering RAG: The Ultimate Guide by Kanaka Software’s",
+    "description": "In the rapidly evolving landscape of artificial intelligence, the ability to generate accurate and contextually relevant responses is paramount. At the AI/ML Team at Kanaka Software, we are continuously exploring advanced technologies to enhance user experiences. One such technology is the Retrieval-Augmented Generation (RAG) architecture, which emerges as a cutting-edge solution that synergizes the expansive knowledge of large language models (LLMs) with sophisticated information retrieval techniques. This powerful combination enables systems to deliver responses that are not only fluent and coherent but also precisely tailored to specific user queries based on a curated knowledge base.",
+    "link": "./assets/resource/pdf/Mastering RAG.pdf"
+  },
+  {
+    "title": "Think Smarter, Act Faster: The o1 AI Paradigm Shift",
+    "description": "In the relentless march of technological progress, moments arrive that redefine our understanding of what’s possible. The unveiling of OpenAI’s o1-preview and o1-mini models marks such a watershed moment in artificial intelligence. These groundbreaking AI systems are not mere iterations, they represent a quantum leap in machine reasoning capabilities, promising to transform industries and unlock unprecedented possibilities.",
+    "link": "./assets/resource/pdf/Think Smarter, Act Faster_ The o1 AI Paradigm Shift.pdf"
+  },
+  {
+    "title": "Unleashing the Power of Retrieval-Augmented Generation (RAG)",
+    "description": "Retrieval Augmented Generation is known as RAG. RAG is a technique used to increase the LLM knowledge base. LLM’s are trained on lots of data after the training is completed they are used in applications. Now the issue arises when need to interact with new data. i.e. Data that is generated after the training. We can’t just train it again because training a Large Language Model Model is not a piece of cake. It takes a huge amount of computational resources, electricity, and money. So how do we increase the knowledge base of our LLM’s? that’s where RAG comes into the picture.",
+    "link": "./assets/resource/pdf/Unleashing the Power of Retrieval-Augmented Generation (RAG).pdf"
+  },
+  {
+    "title": "Master Python Environment Management for AI/ML: Boost Your Productivity from Beginner to Pro",
+    "description": "Picture this: you’re an eager AI/ML developer, ready to jump headfirst into your first neural network project. Your co!ee is steaming, your energy is high, and then it hits you—setting up your Python environment feels like walking into a maze with no exit, full of conflicting packages. Sound all too familiar?",
+    "link": "./assets/resource/pdf/Master Python Environment Management for AI_ML_ Boost Your Productivity from Beginner to Pro.pdf"
+  },
+  {
+    "title": "Collaborative Intelligence: How Mixture of Agents is Shaping the Future of Intelligent Systems",
+    "description": "Imagine a world where artificial intelligence doesn’t just compute – it collaborates. Welcome to the revolutionary realm of Mixture of Agents (MoA), a paradigm shift that’s redefining the boundaries of AI capabilities. In an era where single-model AI systems are reaching their limits, MoA emerges as a beacon of innovation, promising to unlock new frontiers in problem-solving and decision-making.",
+    "link": "./assets/resource/pdf/Collaborative Intelligence_ How Mixture of Agents is Shaping the Future of Intelligent Systems.pdf"
+  },
+  {
+    "title": "Transformer Architecture Uncovered: An Advanced Developer’s Handbook",
+    "description": "Hey there, fellow developers! Feeling a bit lost in the AI buzzword jungle, especially when it comes to “Transformers”? You’re not alone. As a developer myself, I know how daunting it can be to venture beyond our familiar code territories into the realm of AI and machine learning. But here’s an eye-opener: by 2025, the AI market is projected to grow to $190 billion, with Natural Language Processing (NLP) - where Transformers shine - leading the charge. As developers, understanding this tech isn’t just cool - it’s becoming crucial for staying competitive.",
+    "link": "./assets/resource/pdf/Transformer Architecture Uncovered_ An Advanced Developer’s Handbook.pdf"
+  },
+  {
+    "title": "Transformer Architecture Explained Simply: A Developer’s Guide",
+    "description": "Hey there, fellow developers! Feeling a bit lost in the AI buzzword jungle, especially when it comes to “Transformers”? You’re not alone. As a developer myself, I know how daunting it can be to venture beyond our familiar code territories into the realm of AI and machine learning.But here’s an eye-opener: by 2025, the AI market is projected to grow to $190 billion, with Natural Language Processing (NLP) - where Transformers shine - leading the charge. As developers, understanding this tech isn’t just cool - it’s becoming crucial for staying competitive.",
+    "link": "./assets/resource/pdf/Transformer Architecture Explained Simply_ A Developer’s Guide.pdf"
+  },
+  {
+    "title": "Power Prompting: A Practical Guide to Implementing Self-Reflection in LLM Prompting",
+    "description": "Imagine an AI that not only provides answers but also tells you how confident it is in those answers. This isn’t science fiction—it’s the power of self-reflection in Large Language Models (LLMs). As LLMs like GPT-3 and BERT revolutionize natural language processing, they still face challenges with reliability and self-awareness. This article will guide you through implementing self-reflection in LLMs, offering practical strategies for both IT professionals and AI developers to create more trustworthy and effective AI systems.",
+    "link": "./assets/resource/pdf/Power Prompting_ A Practical Guide to Implementing Self-Reflection in LLM Prompting.pdf"
+  },
+  {
+    "title": "SQL Server Performance Tuning: Advanced Monitoring and Profiling Techniques",
+    "description": "In today’s fast-paced digital world, database performance can make or break a business. Whether you’re handling millions of transactions per day or managing critical business intelligence, the eciency of your SQL Server database is paramount. At Kanaka Software, we understand this better than anyone.",
+    "link": "./assets/resource/pdf/SQL Server Performance Tuning_ Advanced Monitoring and Profiling Techniques.pdf"
+  },
+  {
+    "title": "AI Coding Assistants Evaluation Report",
+    "description": "Evaluate and compare leading AI coding assistants for organizational use, focusing on data security, functionality, and suitability for Python, Golang, React, Angular, Vue.js, and C# projects.",
+    "link": "./assets/resource/pdf/AI Coding Assistants Evaluation Report.pdf"
+  }
+]

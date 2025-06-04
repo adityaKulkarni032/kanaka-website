@@ -1,0 +1,13 @@
+#resource-list {
+  display: flex;
+  flex-wrap: wrap;
+  transition: opacity 0.5s ease;
+}
+
+#resource-list > div {
+  transition: opacity 0.5s ease;
+}
+
+#resource-list > div.visible {
+  opacity: 1;
+}

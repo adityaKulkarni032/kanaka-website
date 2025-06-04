@@ -1,0 +1,87 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+
+.home .home-text p span.text-in {
+    display: block;
+    animation: textIn .5s ease-in;
+}
+
+.home .home-text p span.text-out {
+    animation: textOut .5s ease-out;
+
+}
+
+@keyframes textIn {
+    0% {
+        transform: translateY(100%);
+    }
+
+    30% {
+        transform: translateY(-2%);
+    }
+
+    60% {
+        transform: translateY(3%);
+    }
+
+    80% {
+        transform: translateY(-2%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes textOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+.navbarStyle {
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    transition: all 0.2s linear;
+}
+
+.modal-z-index {
+    z-index: 100000;
+}
+
+.show1 {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+

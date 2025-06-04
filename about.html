@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/ico" href="./assets/images/Kanaka_logo 3.png">
+  <title>Kanaka | About Us</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/careers.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2PH1CWZ5MY"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-2PH1CWZ5MY'); </script>
+  <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+
+  <nav
+    class="lg:px-[55px] lg:py-2 xl:px-[69px] xl:py-3.5 2xl:px-[83px] 2xl:py-4 3xl:px-[104px] items-center dark:bg-dark-bg-black bg-white dark:lg:border-blackOne lg:border-b-[1px] lg:border-greyThree w-full navbarStyle"
+    id="navbar">
+    <div class="hidden lg:flex lg:justify-between lg:items-center lg:w-[100%] dark:bg-dark-bg-black">
+      <div class="hidden md:flex">
+        <a href="./">
+          <img
+            class="desklogo lg:w-[99px] lg:h-[17px] xl:w-[123px] xl:h-[21px] 2xl:w-[148px] 2xl:h-[25px] 3xl:w-[185.26px] 3xl:h-[32px]"
+            src="./assets/images/kanaka_logo_light.png" alt="Kanaka Logo" />
+        </a>
+      </div>
+      <div class="hidden md:flex w-[50%]">
+        <ul
+          class="flex items-center self-end justify-between w-full font-medium lg:ml-14 xl:ml-16 3xl:ml-20 lg:text-xs xl:text-sm 2xl:text-base 3xl:text-xl xl:space-x-1 2xl:space-x-4 3xl:space-x-1 text-greyTwo">
+          <li>
+            <a id="homeLink" class="homeLink" href="./">Home</a>
+          </li>
+          <li>
+            <a id="navlink" href="./services.html">Services</a>
+          </li>
+          <li>
+            <a id="navlink" href="./about.html">About Us</a>
+          </li>
+          <li>
+            <a id="navlink" href="./resources.html">Resources</a>
+          </li>
+          <li>
+            <a id="navlink" href="./careers.html">Careers</a>
+          </li>
+          <li>
+            <a id="navlink" href="./contact.html">Contact Us</a>
+          </li>
+          <li>
+            <button
+              class="bg-orangeOne text-white rounded-lg lg:w-[46px] lg:h-[28px] xl:w-[58px] xl:h-[34px] 2xl:h-[41px] 2xl:w-[69px] 3xl:w-[87px] 3xl:h-[52px] items-center">
+              <a id="navlink" class="" href="https://blogs.kanakasoftware.com/" target="_blank">Blogs</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="w-full">
+      <div class="w-[100vw] h-[56px] flex justify-between items-center lg:hidden dark:bg-dark-bg-black px-5">
+        <div class="w-[96px] h-auto">
+          <a href="./">
+            <img class="moblogo" src="./assets/images/kanaka_logo_light.png" alt="" />
+          </a>
+        </div>
+        <div class="">
+          <button id="menu-toggle" class="flex justify-center items-center h-[24px] w-[24px]">
+            <i class="text-lg fa-solid fa-bars text-orangeOne"></i>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden z-100 top-16">
+        <hr class="dark:border-blackOne border-greyThree">
+        <ul
+          class="dark:bg-dark-bg-black text-base flex-row justify-between space-y-4 items-center text-[15px] h-full py-8 px-5">
+          <li class="flex items-center flex-row border-b-[1px] border-greyFour  dark:border-blackOne pb-3 text-greyTwo">
+            <span class="flex items-center justify-center p-0 m-0">
+              <i class="p-0 m-0 fa-solid fa-house homeLink" id="homeLink"></i>
+            </span>
+            <a class="mx-[14px]" id="homeLink" class="homeLink" href="./">Home</a>
+          </li>
+          <li class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+            <span class="flex items-center justify-center icon1">
+              <i class="p-0 m-0 fa-solid fa-chevron-left"></i>
+              <i class="p-0 m-0 fa-solid fa-chevron-right"></i>
+            </span>
+            <a id="moblink" class="mx-2.5" href="./services.html">Services</a>
+          </li>
+          <li class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+            <span class="flex items-center justify-center icon1">
+              <i class="p-0 m-0 fa-solid fa-people-group"></i>
+            </span>
+            <a id="moblink" class="mx-2" href="./about.html">About Us</a>
+          </li>
+          <li class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+            <span class="flex items-center justify-center icon1">
+              <i class="p-0 m-0 fa-solid fa-book"></i>
+            </span>
+            <a id="moblink" class="mx-2.5" href="./resources.html">Resources</a>
+          </li>
+          <li class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+            <span class="flex items-center justify-center icon1">
+              <i class="p-0 m-0 text-lg fa-solid fa-briefcase"></i>
+            </span>
+            <a id="moblink" class="mx-2.5" href="./careers.html">Careers</a>
+          </li>
+          <li class="flex items-center flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+            <span class="flex items-center justify-center icon1">
+              <i class="text-lg pm-0 -0 fa-regular fa-envelope"></i>
+            </span>
+            <a id="moblink" class="mx-2.5" href="./contact.html">Contact Us</a>
+          </li>
+          <li
+            class="flex items-center justify-between flex-row border-b-[1px] border-greyFour dark:border-blackOne pb-3 text-greyTwo">
+            <div class="flex flex-row items-center">
+              <span class="flex items-center justify-center icon1">
+                <i class="p-0 m-0 text-lg fa-regular fa-file-lines"></i>
+              </span>
+              <a id="moblink" class="mx-3.5" href="https://blogs.kanakasoftware.com/" target="_blank">Blogs</a>
+            </div>
+            <span class="ml-40 icon1">
+              <a href="https://blogs.kanakasoftware.com/" target="_blank">
+                <i class="text-lg fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </span>
+          </li>
+        </ul>
+        <div class="fixed bottom-0 grid w-full py-8 dark:bg-blackOne lg:grid-cols-12 pe-8 ps-4 bg-greyFour">
+          <div class="lg:col-span-1 md:col-span-12">
+            <a href="./">
+              <img src="./assets/images/kanaka_logo_light.png" alt="" class="align-middle h-[1rem] object-contain"
+                id="mobfooterlogo" />
+            </a>
+          </div>
+          <div
+            class="flex self-center justify-between py-5 font-light md:justify-start lg:col-span-8 md:col-span-6 lg:py-0">
+            <div class="text-xs tracking-tight dark:text-greyFive text-greyOne">
+              <a href="" id="mobprivacyPolicy">Privacy Policy</a>
+            </div>
+            <div class="text-xs tracking-tight dark:text-greyFive text-greyOne">
+              <a href="" id="mobterms">Terms & Conditions</a>
+            </div>
+            <div class="text-xs tracking-tight dark:text-greyFive text-greyOne">
+              <a href="" id="mobcookie"> Cookie Policy</a>
+            </div>
+          </div>
+          <div class="flex self-center justify-start font-light md:justify-end lg:col-span-3 md:col-span:6">
+            <div class="text-xs dark:text-greyFive text-greyOne">
+              ©2023 Kanaka Software | All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="dark:border-blackOne border-greyThree lg:hidden" id="seperator">
+  </nav>
+
+  <div id="mainbody">
+    <hr class="dark:border-blackOne">
+    <div
+      class="lg:pt-[81px] xl:pt-[104px] 2xl:pt-[124px] 3xl:pt-[156px] dark:bg-dark-bg-black lg:pb-[46px] xl:pb-[58px] 2xl:pb-[70px] 3xl:pb-[88px] pb-12">
+      <div class="grid grid-cols-12 px-5 lg:px-[3.45rem] xl:px-[4.4rem] 2xl:px-[5.2rem] 3xl:px-[6.5rem]">
+        <div class="md:col-span-7 col-span-12 md:p-0 mt-[97px] lg:mt-1 xl:mt-1 2xl:mt-3 3xl:mt-4">
+          <div
+            class="text-greyTwo font-medium 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-xs lg:tracking-wider 3xl:mt-4 2xl:mt-[3.2px] xl:mt-[0px] lg:mt-[0px]">
+            ABOUT
+            KANAKA</div>
+          <div
+            class="font-semibold lg:leading-[53px] xl:leading-[67px] 2xl:leading-[80px] 3xl:leading-[100px] lg:text-[47px] xl:text-[59px] 2xl:text-[70px] 3xl:text-[88px] md:text-4xl text-3xl 3xl:mt-4 2xl:mt-[3.2px] xl:mt-[2.66px] lg:mt-[2.13px] mt-2 3xl:mb-4 2xl:mb-[3.2px] xl:mb-[2.66px] lg:mb-[2.13px] mb-2 text-dark-bg-black dark:text-white">
+            Our <span class="text-white-text-green dark:text-dark-text-green">Mission</span></div>
+          <div
+            class="text-dark-bg-black 3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs md:text-xs text-sm 3xl:mr-44 2xl:mr-[110.8px] xl:mr-[117.33px] lg:mr-[93.86px] 3xl:mt-10 2xl:mt-[32px] xl:mt-[26.66px] lg:mt-[21.33px] mt-6 dark:text-greyFive lg:tracking-wide 3xl:mb-[120px] 2xl:mb-[96px] xl:mb-[80px] lg:mb-[64px]">
+            <div
+              class="3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 xl:tracking-[0.06rem]">
+              To empower businesses with exceptional capabilities in outsourced software product
+              development.
+            </div>
+            <div class="block col-span-12 my-10 md:col-span-4 lg:my-0 lg:hidden">
+              <div
+                class=" overflow-hidden rounded-2xl lg:h-[25.134rem] xl:h-[31.42rem] 2xl:h-[37.7rem] 3xl:h-[47.125rem] lg:w-[329px] xl:w-[412px] 2xl:w-[494px] 3xl:w-[618px]">
+                <img src="./assets/images/main/About_Us.jpg" alt="Our_mission"
+                  class="scale-110 hover:scale-[1.25] transition delay-150 duration-300 ease-in-out h-full w-full">
+              </div>
+            </div>
+            <div
+              class="3xl:py-4 2xl:py-[12.8px] xl:py-[10.66px] lg:py-[8.53px] pb-4 font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 xl:tracking-normal">
+              We combine our strengths in managing cutting-edge technology, an engineering mindset, a
+              client-centric approach, and a relentless commitment to excellence to build software
+              products.
+            </div>
+            <div class="font-light 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] leading-6 ">
+              We believe that integrity and transparency are our core tenets,
+              and we continuously strive to be a trusted partner to our clients.
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex md:justify-end md:col-span-5 col-span-12 md:relative 3xl:ps-10 2xl:ps-[32px] xl:ps-[26.66px] lg:ps-[21.33px] lg:mb-0 lg:mt-0 mt-10 lg:block hidden">
+          <div class="right-0 overflow-hidden md:absolute rounded-2xl">
+            <img src="./assets/images/main/About_Us.jpg" alt="Our_mission"
+              class="3xl:h-[47.125rem] 2xl:h-[37.7rem] xl:h-[31.41rem] lg:h-[25.13rem] 3xl:w-[618px] 2xl:w-[494.40px] xl:w-[412px] lg:w-[329.6px] hover:scale-[1.25] scale-110 transition delay-150 duration-300 ease-in-out ">
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-12 gap-5 bg-greySeven px-5 lg:px-[3.45rem] xl:px-[4.4rem] 2xl:px-[5.2rem] 3xl:px-[6.5rem] lg:pb-[64px] xl:pb-[80px] 2xl:pb-[96px] 3xl:pb-[120px] lg:mt-0 mt-10 dark:bg-blackOne"
+        id="ourCulture">
+        <div
+          class="flex md:justify-start md:col-span-4 col-span-12 md:inline-block hidden lg:mt-[40px] xl:mt-[64px] 2xl:mt-[77px] 3xl:mt-[96px]">
+          <div
+            class="overflow-hidden rounded-2xl lg:h-[25.134rem] xl:h-[31.42rem] 2xl:h-[37.7rem] 3xl:h-[47.125rem] lg:w-[329px] xl:w-[412px] 2xl:w-[494px] 3xl:w-[618px]">
+            <img src="./assets/images/main/Our_Culture.jpg" alt="our_culture"
+              class="scale-110 hover:scale-[1.25] transition delay-150 duration-300 ease-in-out h-full w-full">
+          </div>
+        </div>
+        <div
+          class="md:col-span-8 col-span-12 lg:ps-[80px] xl:ps-[101px] 2xl:ps-[121px] 3xl:ps-[151px] lg:mt-[141px] xl:mt-[168px] 2xl:mt-[213px] 3xl:mt-[266px]">
+          <div
+            class="font-semibold lg:leading-[53px] xl:leading-[67px] 2xl:leading-[80px] 3xl:leading-[100px] text-3xl md:text-4xl lg:text-[47px] xl:text-[59px] 2xl:text-[70px] 3xl:text-[88px] 3xl:mt-4 2xl:mt-[3.2px] xl:mt-[2.66px] lg:mt-[2.13px] mt-6 3xl:mb-4 2xl:mb-[3.2px] xl:mb-[2.66px] lg:mb-[2.13px] mb-2 text-dark-bg-black dark:text-white">
+            Our <span class="text-white-text-blue dark:text-dark-text-blue">Culture</span>
+          </div>
+
+          <div
+            class="text-dark-bg-black text-sm md:text-xs lg:text-xs xl:text-base 2xl:text-xl 3xl:text-2xl 3xl:mt-10 2xl:mt-[32px] xl:mt-[26.66px] lg:mt-[21.33px] mt-6 lg:mb-[20px] xl:mb-[20px] 2xl:mb-[20px] 3xl:mb-[20px] md:text-xs text-sm dark:text-greyFive">
+            <div
+              class="leading-6 lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 lg:tracking-wide 2xl:tracking-normal 3xl:tracking-wide">
+              At Kanaka we strive to fosters an environment where open communication, integrity, and
+              empowered
+              decision-making build trust among employees.
+            </div>
+            <div class="block inline-block col-span-12 my-10 md:col-span-5 md:hidden lg:my-0 lg:hidden">
+              <div class="overflow-hidden rounded-2xl">
+                <img src="./assets/images/main/Our_Culture.jpg" alt="our_culture"
+                  class="transition duration-300 ease-in-out delay-150 hover:scale-110 ">
+              </div>
+            </div>
+            <div
+              class="pb-5 font-light leading-6 lg:pt-3 xl:pt-3 2xl:pt-6 3xl:pt-6 lg:pb-4 lg:pb-0 lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 lg:tracking-wide 2xl:tracking-wide 3xl:tracking-wide">
+              We are proud to be an equal opportunity employer. We promote technological excellence by
+              investing in resources and encouraging continuous learning. Transparency is promoted through
+              open dialogue, visible decision-making processes, and shared responsibility.
+            </div>
+            <div
+              class="pb-10 font-light leading-6 lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 lg:pb-0 lg:tracking-wide 2xl:tracking-wide 3xl:tracking-wide lg:pr-4 xl:pr-5 2xl:pr-6 3xl:pr-8">
+              Kanaka is a fun and enjoyable work environment created through social events and wellness
+              programs. Together, we believe that these values cultivate a vibrant and inclusive
+              workplace,
+              attracting top talent and driving innovation for sustainable success.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="md:px-[6.5rem] px-5 lg:px-[3.45rem] xl:px-[4.4rem] 2xl:px-[5.2rem] 3xl:px-[6.5rem] lg:mt-[47px] xl:mt-[58px] 2xl:mt-[70px] 3xl:mt-[88px] mt-10 dark:bg-dark-bg-black"
+        id="leadership">
+        <div class="grid grid-cols-12 lg:gap-5 gap-x-5">
+          <div class="col-span-12 pt-5">
+            <div
+              class="lg:text-[47px] xl:text-[59px] 2xl:text-[70px] 3xl:text-[88px] md:text-4xl text-2xl font-semibold text-dark-bg-black dark:text-white">
+              Meet <span class="text-orangeOne dark:text-[#EB754C]">Kanaka’s
+                Leadership</span></div>
+          </div>
+          <div class="col-span-12 mt-8 lg:mt-3 xl:mt-6 2xl:mt-8 3xl:mt-10">
+            <div
+              class="text-xs font-medium text-greyTwo lg:text-base xl:text-base 2xl:text-xl 3xl:text-2xl lg:tracking-wider">
+              EXECUTIVE PROFILES
+            </div>
+          </div>
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-[30px] lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_aniruddha_paranjape_img8.png" alt="aniruddha_paranjape"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 dark:text-white text-dark-bg-black lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              ANIRUDDHA PARANJAPE
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Chief Executive Officer
+            </div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/aniruddha-paranjape-5a31844/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-[30px] lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_nikhil_halgeri_img1.png" alt="nikhil_halgeri"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 dark:text-white text-dark-bg-black lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              NIKHIL HALGERI
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Managing Director</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/nikhil-halgeri-857164/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-10 lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_ujjwal_bhattacharyya_img10.png" alt="ujjwal_bhattacharyya"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 dark:text-white text-dark-bg-black lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              UJJWAL
+              BHATTACHARYYA
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Chief Technical Officer
+            </div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/ujjwal13/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-10 lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_niranjan_aradhye_img5.png" alt="niranjan_aradhye"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] dark:text-white text-dark-bg-black mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              NIRANJAN ARADHYE
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Head-HR & Admin</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/niranjan-aradhye-298a985/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <hr class="w-full col-span-12 lg:block md:hidden dark:border-blackOne">
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-10 lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_swapnil_kulkarni_img7.png" alt="swapnil_kulkarni"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 dark:text-white text-dark-bg-black lg:tracking-wide">
+              SWAPNIL KULKARNI
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Delivery Manager</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/swapnil-kulkarni-98674899/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-10 lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_nilesh_jagtap_img6.png" alt="nilesh_jagtap"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 dark:text-white text-dark-bg-black lg:tracking-wide">
+              NILESH JAGTAP</div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Delivery Manager</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/nileshjagtap/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="lg:col-span-3 md:col-span-4 col-span-6 pb-10 lg:pb-[0.4rem] xl:pb-[0.5rem] 2xl:pb-[0.6rem] 3xl:pb-[0.75rem] mt-10 lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px]">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_diptee_hamdapurkar_img2.png" alt="diptee_hamdapurkar"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 dark:text-white text-dark-bg-black lg:tracking-wide">
+              DIPTEE HAMDAPURKAR
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Delivery Manager</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/diptee-hamdapurkar-743a8126/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <div class="lg:col-span-3 md:col-span-4 col-span-6 lg:mb-[12px] xl:mb-[14px] 2xl:mb-[16px] 3xl:mb-[20px] mt-10 lg:mt-[16px] xl:mt-[32px] 2xl:mt-[38px] 3xl:mt-[48px] ">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_amol_patil_img9.png" alt="amol_patil"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 dark:text-white text-dark-bg-black lg:tracking-wide">
+              AMOL PATIL</div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Delivery Manager</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/amol-patil-3ba89247/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <hr class="w-full col-span-12 my-10 lg:block md:hidden lg:my-0 dark:border-blackOne">
+          <div class="col-span-12 lg:mt-[18px] xl:mt-[28px] 2xl:mt-[44px] 3xl:mt-[54px] mb-7 lg:mb-4  xl:mb-10">
+            <div
+              class="text-xs font-medium text-greyTwo lg:text-xl xl:text-xl 2xl:text-xl 3xl:text-2xl lg:tracking-wider">
+              ADVISORS</div>
+          </div>
+          <div class="col-span-6 lg:col-span-3 md:col-span-4">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_john_philpott_img12.png" alt="john_philpott"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-medium md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 dark:text-white text-dark-bg-black lg:tracking-wide">
+              JOHN PHILPOTT</div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Advisor</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/philpottjohn/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-span-6 lg:col-span-3 md:col-span-4">
+            <div class="overflow-hidden rounded-2xl lg:w-[128px] xl:w-[160px] 2xl:w-[192px] 3xl:w-[240px]">
+              <img src="./assets/images/about/aboutus_advisor_img13.png" alt="advisor"
+                class="transition duration-300 ease-in-out delay-150 hover:scale-110">
+            </div>
+            <div
+              class="font-normal md:text-2xl text-[0.68rem] lg:text-[0.8rem] xl:text-[1rem] 2xl:text-[1.2rem] 3xl:text-[1.5rem] mt-8 3xl:mt-8 2xl-mt-6 xl:mt-5 lg:mt-4 lg:tracking-wide lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10 dark:text-white text-dark-bg-black lg:tracking-wide">
+              CLAUDIUS VAN DER
+              MEULEN
+            </div>
+            <div
+              class="text-orangeOne lg:tracking-wide md:text-xl lg:text-[0.67rem] xl:text-[0.84rem] 2xl:text-[1rem] 3xl:text-[1.25rem] text-[0.65rem] lg:leading-5 xl:leading-7 2xl:leading-8 3xl:leading-10">
+              Advisor</div>
+            <div class="pt-2">
+              <a target="_blank" href="https://www.linkedin.com/in/claudius-v-6a0442/">
+                <i
+                  class="fa-brands fa-linkedin 3xl:text-[30px] 2xl:text-[24px] xl:text-[20px] lg:text-[16px] text-[24px] dark:text-[white] text-[#0077b5]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="bg-[#F5F5F5] 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.3rem] lg:px-[3.46em] px-5 3xl:py-10 2xl:py-[32px] xl:py-[26.66px] lg:py-[21.33px] py-5  dark:bg-[#35363A]"
+    id="footer">
+    <div class="grid grid-cols-2 gap-5 lg:grid-cols-12 md:grid-cols-3 lg:gap-14 ">
+      <div class="lg:col-span-2">
+        <ul>
+          <li class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+            <a href="./services.html#serviceOffered">Services Offered</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] pb-4 dark:text-[#D9D9D9]">
+            <a href="./services.html#mainExpertiesDiv">Industry Expertise</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+            <a href="./services.html#customer_testimonial">Customer Testimonials</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2">
+        <ul>
+          <li class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+            <a href="./about.html">About Us</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+            <a href="./about.html">Our Mission</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+            <a href="./about.html#ourCulture">Our Culture</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+            <a href="./about.html#leadership">Meet Kanaka’s Leadership</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2">
+        <ul>
+          <li class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+            <a href="./careers.html">Careers</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+            <a href="./careers.html">Join Us</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+            <a href="./careers.html#empTestimonials">Employee Testimonials</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2">
+        <ul>
+          <li class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] py-4 dark:text-[#D9D9D9]">
+            <a href="./contact.html">Get In Touch</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] dark:text-[#D9D9D9]">
+            <a href="./contact.html#locations">Locations</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2">
+        <ul>
+          <li class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+            <a href="https://blogs.kanakasoftware.com/" target="_blank">Blogs</a>
+          </li>
+          <li class="3xl:text-lg 2xl:text-base xl:text-sm lg:text-xs text-xs text-[#5F6368] pt-4 dark:text-[#D9D9D9]">
+            <a href="./careers.html#LifeatKanaka">Life@Kanaka</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2">
+        <div class="3xl:text-2xl 2xl:text-xl xl:text-base lg:text-xs text-sm dark:text-[#FFFFFF] text-[#202124]">
+          Stay Connected</div>
+        <div class="flex pt-4 md:justify-start">
+          <div>
+            <a href="https://www.linkedin.com/company/kanakasoftware/" target="_blank">
+              <i
+                class="fa-brands fa-linkedin 3xl:text-[40px] 2xl:text-[32px] xl:text-[26.66px] lg:text-[21.33px] text-[24px] dark:text-[white] text-[#202124]"></i>
+            </a>
+          </div>
+          <div class="3xl:ps-10 2xl:ps-[32px] xl:ps-[26.66px] lg:ps-[21.33px] ps-[16px]">
+            <a href="https://www.instagram.com/kanakasoftware/" target="_blank">
+              <i
+                class="fa-brands fa-instagram 3xl:text-[40px] 2xl:text-[32px] xl:text-[26.66px] lg:text-[21.33px] text-[24px] dark:text-[white] text-[#202124]"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="w-full 3xl:my-10 2xl:my-[32px] xl:my-[21.66px] lg:my-[21.33px] my-9 dark:border-[#717579]">
+    <div class="grid lg:grid-cols-12">
+      <div
+        class="lg:col-span-2 md:col-span-12 3xl:w-[11.579rem] 2xl:w-[9.26rem] xl:w-[7.71rem] lg:w-[6.17rem] w-24 h-auto ">
+        <a href="./index.html">
+          <img src="./assets/images/kanaka_logo_light.png" alt="" class="object-contain align-middle"
+            id="footer_logos_kanaka">
+        </a>
+      </div>
+      <div
+        class="flex self-center justify-between py-5 font-light md:justify-start lg:col-span-7 md:col-span-6 lg:py-0">
+        <div
+          class="3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] 3xl:px-8 2xl:px-[25.6px] xl:px-[21.33px] lg:px-[17.06px] dark:text-[#D9D9D9]">
+          <a href="" id="privacyPolicy">Privacy Policy</a>
+        </div>
+        <div class="3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] dark:text-[#D9D9D9]">
+          <a href="" id="terms">Terms & Conditions</a>
+        </div>
+        <div
+          class="3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] 3xl:px-8 2xl:px-[25.6px] xl:px-[21.33px] lg:px-[17.06px] dark:text-[#D9D9D9]">
+          <a href="" id="cookie"> Cookie Policy</a>
+
+        </div>
+      </div>
+      <div class="flex self-center justify-start font-light md:justify-end lg:col-span-3 md:col-span:6">
+        <div class=" 3xl:text-lg 2xl:text-sm lg:text-xs text-xs font-light text-[#717579] dark:text-[#D9D9D9]">
+          ©2023 Kanaka Software
+          |
+          All Rights
+          Reserved</div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="hidden fixed w-[100vw] h-[100vh] top-0 3xl:px-[80px] 2xl:px-[64px] xl:px-[53.33px] lg:px-[42.66px] px-5 dark:bg-modalBgColor1 bg-modalBgColor flex items-center justify-center modal-z-index"
+    id="modal">
+    <div
+      class="dark:bg-dark-bg-black bg-white dark:text-white text-dark-bg-black rounded-2xl p-4 shadow-lg shadow-[#5F6368] lg:h-auto h-[70vh] lg:mx-44 mx-0  overflow-y-auto ">
+
+
+      <div id="modalContent" class="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <script defer src="./js/index.js"></script>
+
+</body>
+
+</html>
