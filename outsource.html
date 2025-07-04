@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/ico" href="./assets/images/Kanaka_logo 3.png">
   <title>Kanaka | Outsource</title>
-  <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="stylesheet" type="text/css" href="./css/careers.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2PH1CWZ5MY"></script>
   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-2PH1CWZ5MY'); </script>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
   <script src="./js/script.js"></script>
 </head>
 
@@ -155,21 +155,21 @@
     <hr class="dark:border-blackOne border-greyThree lg:hidden" id="seperator">
   </nav>
 
-  <section
+  <!-- <section
     class="lg:pt-[80px] xl:pt-[104px] 2xl:pt-[124px] 3xl:pt-[156px] relative py-20 dark:bg-[#202124] items-center">
     <div
       class="grid grid-cols-12 3xl:px-[6.5rem] 2xl:px-[5.2rem] xl:px-[4.33rem] lg:px-[3.46rem] px-5 3xl:mb-[78px] 2xl:mb-[62.40px] xl:mb-[52px] lg:mb-[41.6px] gap-8">
 
 
       <div
-        class="flex md:col-span-5 col-span-12 md:relative 3xl:ps-10 2xl:ps-[32px] xl:ps-[26.66px] lg:ps-[21.33px] lg:mb-0 lg:mt-0 mt-10 items-center">
-        <div class="left-0 overflow-hidden md:absolute rounded-2xl sm:border-gray-950">
+        class="flex justify-center md:col-span-5 md:bg-red-500 sm:bg-green-500  col-span-12 md:relative lg:mb-0 lg:mt-0 mt-10 items-center content-center">
+        <div class="overflow-hidden rounded-2xl bg-blue-600">
           <img src="./assets/images/services/outsource/photo-1581091226825-a6a2a5aee158.jpg" alt="our_team_image"
-            class="w-full object-cover h-[400px] lg:h-[500px] transform transition-transform duration-700 hover:scale-105">
+            class="w-auto object-cover h-[400px] lg:h-[500px] transform transition-transform duration-700 hover:scale-105 mx-auto">
         </div>
       </div>
       
-      
+
       <div
         class="flex justify-center md:col-span-7 col-span-12 md:relative 3xl:ps-10 2xl:ps-[32px] xl:ps-[26.66px] lg:ps-[21.33px] lg:mb-0 lg:mt-0 mt-10 flex-col gap-8 h-[400px] lg:h-[500px]">
         <div>
@@ -189,6 +189,45 @@
           a Consultation</button>
       </div>
     </div>
+  </section> -->
+
+  <section class="relative py-20 lg:pt-[80px] xl:pt-[104px] 2xl:pt-[124px] 3xl:pt-[156px] dark:bg-[#202124]">
+
+    <div class="flex flex-col lg:flex-row items-center gap-10 px-5 lg:px-[3.46rem] xl:px-[4.33rem] 2xl:px-[5.2rem] 3xl:px-[6.5rem]
+           mb-[41.6px] xl:mb-[52px] 2xl:mb-[62.4px] 3xl:mb-[78px]">
+
+      <div class="flex justify-center w-full lg:w-5/12 mt-10 lg:mt-0">
+        <div class="overflow-hidden rounded-2xl">
+          <img src="./assets/images/services/outsource/photo-1581091226825-a6a2a5aee158.jpg" alt="our_team_image"
+            class="mx-auto block w-auto object-cover h-[400px] lg:h-[500px] transform transition-transform duration-700 hover:scale-105" />
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col justify-center gap-8 w-full lg:w-7/12 mt-10 lg:mt-0 3xl:ps-10 2xl:ps-[32px] xl:ps-[26.66px] lg:ps-[21.33px]">
+
+        <h3 class="text-xs uppercase tracking-wider font-semibold text-blue-500 mb-3">
+          Outsourced Product Development
+        </h3>
+
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight mb-6 text-balance"
+          style="animation-delay: 0.6s;">
+          Innovate Faster, <br /><span class="text-[#0070f3]">Scale Smarter</span>
+        </h1>
+
+        <!-- <p class="text-gray-600 text text-lg md:text-xl leading-relaxed animate-fade-in"> -->
+        <p class="text-gray-600 leading-relaxed 3xl:leading-10 2xl:leading-8 xl:leading-[26.66px] lg:leading-[21.33px] text-lg">
+          Accelerate your product development with Kanaka's expert engineering teams and scalable
+          solutions. Drive innovation, reduce time-to-market, and optimize costs—all while ensuring
+          seamless collaboration and world-class execution.
+        </p>
+
+        <button
+          class="text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 bg-[#0070f3] hover:shadow-lg hover:shadow-blue-300/30 transform hover:-translate-y-1 max-w-max">
+          Schedule a Consultation
+        </button>
+      </div>
+    </div>
   </section>
 
   <section class="py-16 lg:pt-[80px] xl:pt-[104px] 2xl:pt-[124px] 3xl:pt-[156px] bg-[#f9f9f9] dark:bg-[#202124]">
@@ -199,33 +238,38 @@
 
       </div> -->
 
-      <div class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
-        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">🔹</span>
+      <div
+        class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
+        <div class="text-[#0070f3] font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">
+          <span class="bg-[#0070f3]/10 text-[#0070f3] font-semibold p-1.5 rounded-full flex items-center justify-center">🔹</span>
         </div>
-        <h3 class="text-3xl font-bold text-kanaka-blue my-3">72%</h3>
+        <h3 class="text-3xl font-bold my-3 text-[#0070f3]">72%</h3>
         <p class="text-gray-600">of businesses
           report faster time-to-market with outsourced development teams.</p>
       </div>
-      <div class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
-        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">🔹</span>
+      <div
+        class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
+        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">
+          <span class="bg-[#0070f3]/10 text-[#0070f3] font-semibold p-1.5 rounded-full flex items-center justify-center">🔹</span>
         </div>
-        <h3 class="text-3xl font-bold text-kanaka-blue my-3">72%</h3>
-        <p class="text-gray-600">of businesses
-          report faster time-to-market with outsourced development teams.</p>
+        <h3 class="text-3xl font-bold my-3 text-[#0070f3]">60%</h3>
+        <p class="text-gray-600">of companies achieve cost savings by leveraging external engineering expertise.</p>
       </div>
-      <div class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
-        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">🔹</span>
+      <div
+        class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
+        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">
+          <span class="bg-[#0070f3]/10 text-[#0070f3] font-semibold p-1.5 rounded-full flex items-center justify-center">🔹</span>
         </div>
-        <h3 class="text-3xl font-bold text-kanaka-blue my-3">72%</h3>
-        <p class="text-gray-600">of businesses
-          report faster time-to-market with outsourced development teams.</p>
+        <h3 class="text-3xl font-bold my-3 text-[#0070f3]">3x Faster</h3>
+        <p class="text-gray-600">innovation cycle for organizations adopting agile, outsourced product engineering.</p>
       </div>
-      <div class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
-        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">🔹</span>
+      <div
+        class="data-point-card rounded-xl p-6 bg-white shadow-lg border border-gray-100  flex flex-col items-center text-center transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-fade-in">
+        <div class="text-kanaka-blue font-semibold p-1.5 rounded-full w-10 h-10 flex items-center justify-center">
+          <span class="bg-[#0070f3]/10 text-[#0070f3] font-semibold p-1.5 rounded-full flex items-center justify-center">🔹</span>
         </div>
-        <h3 class="text-3xl font-bold text-kanaka-blue my-3">72%</h3>
-        <p class="text-gray-600">of businesses
-          report faster time-to-market with outsourced development teams.</p>
+        <h3 class="text-3xl font-bold my-3 text-[#0070f3]">$500B+</h3>
+        <p class="text-gray-600">projected global spending on product engineering and R&D outsourcing by 2025.</p>
       </div>
 
     </div>
